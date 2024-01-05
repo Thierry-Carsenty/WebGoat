@@ -9,8 +9,6 @@ RUN \
 
 USER webgoat
 
-# COPY --chown=webgoat src/main/resources/webgoat/static/css/img/logoBG.jpg /home/webgoat/logoBG.jpg
-
 COPY --chown=webgoat target/webgoat-*.jar /home/webgoat/webgoat.jar
 
 EXPOSE 8080
