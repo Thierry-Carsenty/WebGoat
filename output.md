@@ -8,7 +8,7 @@
 `docker run -it -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 webgoat/webgoat`
 - This will create a new container of the application on your desktop.
 - Then open a web browser and go to: 
-http://www.webgoat.local:8080/WebGoat/
+http://127.0.0.1:8080/WebGoat
 
 # Replacing the WebGoat logo image: 
 
